@@ -3,7 +3,8 @@
 1. 🌟🌟 使用 `|` 可以匹配多个值, 而使用 `..=` 可以匹配一个闭区间的数值序列
 ```rust,editable
 
-fn main() {}
+
+fn main() {
 fn match_number(n: i32) {
     match n {
         // 匹配一个单独的值
@@ -18,6 +19,8 @@ fn match_number(n: i32) {
             println!("match 11 -> +infinite")
         }
     }
+}
+match_number(5);
 }
 ```
 
